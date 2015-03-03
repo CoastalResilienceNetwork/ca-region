@@ -1,9 +1,10 @@
-{
+﻿{
     "name": "Flood and Sea Level Rise",
 	"pluginHeight": 450,
 	"windowStyles": {"opacity": 0.75},
 	"transparency": 0.25,
 	"dojoTheme": "tundra",
+	"infoGraphic": "slr_flooding_c.jpg",
 	"regions": [
 		{
 			"name": "Ventura",
