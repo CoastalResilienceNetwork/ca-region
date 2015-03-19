@@ -6,10 +6,6 @@
             "folders": [
                 {
                     "name": "Ventura_County","services": [{ "name": "MapLayers", "type":"dynamic" }]
-					
-                },
-				{
-					"name": "Ventura_Economics", "services": [{ "name": "Ventura_Damage_Estimates", "type":"dynamic" }]
 				}
             ]
         }
