@@ -26,7 +26,7 @@
 						"Concrete": [{"type":"dynamic","show":[2,4]}],
 						"marshmallows":  [{"type":"dynamic","show":[1,3,5]}]
 					},
-					"mainURL": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Ventura_Economics/Ventura_Economics_Scenarios/MapServer"
+					"mainURL": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/California/Ventura_Economics/MapServer"
 				},
 				{
 					"name": "Hazard Zones",
