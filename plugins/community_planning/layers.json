@@ -8,7 +8,7 @@
                     "name": "Ventura_County","services": [{ "name": "MapLayers", "type":"dynamic" }]
 				},
                 {
-                    "name": "CR_CA","services": [{ "name": "CA_Monterey_Community_Assets", "type":"dynamic" }]
+                    "name": "CR_CA","services": [{ "name": "CA_Monterey_Community_Assests", "type":"dynamic" }]
                 }
             ]
         }
