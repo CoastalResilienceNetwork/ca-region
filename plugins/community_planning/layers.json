@@ -2,11 +2,22 @@
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
-            "folderTitle": "Coastal_Resilience_Ventura",
+            "folderTitle": "Ventura_County",
             "folders": [
                 {
                     "name": "Ventura_County","services": [{ "name": "MapLayers", "type":"dynamic" }]
 				}
+            ]
+        }
+    },
+    {
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Monterey_County",
+            "folders": [
+                {
+                    "name": "CR_CA","services": [{ "name": "CA_Monterey_Community_Assets", "type":"dynamic" }]
+                }
             ]
         }
     }
