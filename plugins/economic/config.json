@@ -19,7 +19,7 @@
 {
 					"name": "Management Actions",
 					"controls": [
-						{"name": "Management Scenarios", "group": "MS", "help": "Management Things", "values": [{"name":"Using Concrete","value":"Concrete", "help": "Concrete Things"},{"name":"Using Marshmallows Stuff", "value":"marshmallows", "help": "Mashmellows Note"}], "type": "checkbox"}	
+						{"name": "Management Scenarios", "group": "MS", "help": "Management Things", "values": [{"name":"Using Armoring","value":"Concrete", "help": "Concrete Things"},{"name":"Nature Based Approach", "value":"marshmallows", "help": "Mashmellows Note"}], "type": "checkbox"}	
 					
 					], 
 					"combos": {
@@ -31,7 +31,7 @@
 				{
 					"name": "Hazard Zones",
 					"controls": [
-						{"name":"Management Scenarios", "group": "main", "help": "This is the help message for Management Scenarios", "values":[{"name":"Engineered Based Approach","value":"EBA", "help": "More Help"},{"name":"Nature Based Approach", "value":"NBA", "help": "More Help"}], "type": "radio"},
+						{"name":"Management Scenarios", "group": "main", "help": "This is the help message for Management Scenarios", "values":[{"name":"Coastal Armoring","value":"EBA", "help": "More Help"},{"name":"Nature Based Approach", "value":"NBA", "help": "More Help"}], "type": "radio"},
 						{"name":"Hazard Zone Type", "group": "main", "values":[{"name":"Coastal Erosion","value":"CE", "help": "More Help"},{"name":"Rising Tide", "value":"RT", "help": "More Help"},{"name":"Coastal Storm Flood", "value":"CSF", "help": "More Help"},{"name":"Coastal Storm Wave Impact", "value":"CSWI", "help": "More Help"}], "type": "radio"},
 						{"name":"Year / Sea Level Rise", "group": "main", "help": "More Help", "values":[{"name":"Current / Existing Conditions","value":"CEC", "selected": true, "help": "More Help"},{"name":"2030 / High", "value":"2030", "help": "More Help"},{"name":"2060 / High", "value":"2060", "help": "More Help"},{"name":"2100 / High", "value":"2100", "help": "More Help"}], "type": "radio"}	
 					
@@ -77,7 +77,7 @@
 				{
 					"name": "EBA NBA Damage Estimates",
 					"controls": [
-						{"name": "Management Scenarios", "group": "main", "help": "More Help", "values": [{"name":"Existing Conditions","value":"Cur", "help": "More Help"},{"name":"Engineered Based Approach","value":"EBA", "help": "More Help"},{"name":"Nature Based Approach","value":"NBA", "help": "More Help"}], "type": "radio"},
+						{"name": "Management Scenarios", "group": "main", "help": "More Help", "values": [{"name":"Existing Conditions","value":"Cur", "help": "More Help"},{"name":"Coastal Armoring","value":"EBA", "help": "More Help"},{"name":"Nature Based Approach","value":"NBA", "help": "More Help"}], "type": "radio"},
 						{"name":"Damage Estimates", "group": "main", "help": "More Help", "values":[{"name":"$ value amount of public buildings losses","value":"Pub", "help": "More Help"},{"name":"$ value amount of residential losses", "value":"Res", "help": "More Help"},{"name":"$ value amount of agricultural losses", "value":"Ag", "help": "More Help"},{"name":"$ value amount of recreational losses", "value":"Rec", "help": "More Help"}], "type": "radio"},
 						{"name":"Hazard Zones", "group": "main", "help": "More Help", "values":[{"name":"Coastal Erosion","value":"ED", "help": "More Help"},{"name":"Rising Tide", "value":"DD", "help": "More Help"},{"name":"Coastal Storm Flood", "value":"SD", "help": "More Help"},{"name":"Coastal Storm Wave Impact", "value":"WD", "help": "More Help"}], "type": "radio"},
 						{"name":"Year / Sea Level Rise", "group": "main", "help": "More Help", "values":[{"name":"Current / Existing Conditions","value":"ex", "help": "More Help"},{"name":"2030 / High", "value":"2030", "help": "More Help"},{"name":"2060 / High", "value":"2060", "help": "More Help"},{"name":"2100 / High", "value":"2100", "help": "More Help"}], "type": "radio"}	
