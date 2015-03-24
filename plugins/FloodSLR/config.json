@@ -122,7 +122,7 @@
 						"RFI|2100|High": [{"type":"dynamic","show":[69]}]
 						
 					},
-					"mainURL": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Ventura_County/Ventura_SLR/MapServer"
+					"mainURL": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/California/Ventura_SLR/MapServer"
 				
 				}			
 			]
@@ -377,7 +377,7 @@
 
 						
 					},
-					"mainURL": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/CR_CA/Monterey_SLR/MapServer"
+					"mainURL": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/California/Monterey_SLR/MapServer"
 				
 				}			
 			]
