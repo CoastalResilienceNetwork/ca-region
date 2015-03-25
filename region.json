@@ -82,7 +82,7 @@
             "id": "get-started",
             "title": "Getting Started",
             "description": "This is the launchpad description",
-            "showSubRegions": false,
+            "showSubRegions": true,
             "showByDefault": true,
             "categories": [
               {
