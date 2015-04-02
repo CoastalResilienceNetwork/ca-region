@@ -83,7 +83,7 @@
 						{"name":"Year / Sea Level Rise", "group": "main", "help": "More Help", "values":[{"name":"Current / Existing Conditions","value":"ex", "help": "More Help"},{"name":"2030 / High", "value":"2030", "help": "More Help"},{"name":"2060 / High", "value":"2060", "help": "More Help"},{"name":"2100 / High", "value":"2100", "help": "More Help"}], "type": "radio"}	
 					
 					], 
-					"mainURL": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Ventura_Economics/Ventura_Damage_Estimates/MapServer",
+					"mainURL": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/California/Ventura_Damage_Estimates/MapServer",
 					"combos": {
 							"Cur|Ag|DD|2030": [
 								{
