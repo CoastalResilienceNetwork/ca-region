@@ -58,6 +58,7 @@
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "subregions": {
+        "hideAtZoomLevel": 8,
         "color": "#00C5CD",
         "outlineColor": "#008000",
         "opacity": 0.2,
