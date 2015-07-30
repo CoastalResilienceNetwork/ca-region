@@ -414,7 +414,7 @@
 						{"name":"Year", "group": "main", "values":[{"name":"Current","value":"CT", "dependent" : "tide_area|dhz|chz|coastal_floodhz|fluvial_floodhz", "help": "Current"},{"name":"2030", "value":"2030", "selected": true, "help": "2030"},{"name":"2060", "value":"2060", "help": "2060"},{"name":"2100", "value":"2100", "help": "2100"}], "type": "slider"},
 						{"name":"Sea Level Rise Scenario", "dependent" : "2030|2060|2100", "help": "SLR", "group": "main", "values":[{"name":"Low","value":"s1", "selected": true, "help": "16.1in (41cm) by 2100, relative to the 2010 height"},{"name":"Medium", "value":"s2","help": "34.6in (88cm) by 2100, relative to the 2010 height"},{"name":"High", "value":"s3","help": "62.6 in (159cm) by 2100, relative to the 2010 height"}], "type": "slider"},	
 						{"name":"i. Dune Erosion Options", "dependent" : "dhz", "group": "main", "values":[{"name":"Long Term","value":"longterm", "selected": true, "help": "A continuation of historic erosion with additional erosion caused by sea level rise. Does not include potential impacts of a large storm."},{"name":"Long Term and Large Storm", "value":"wstorm", "help": "Includes long-term erosion and the potential erosion of a large storm event (e.g. 100-year storm)"}], "type": "radio"},
-						{"name":"ii. Cliff Erosion Scenarios", "dependent" : "chz", "group": "main", "values":[{"name":"Long Term","value":"cslongterm", "selected": true, "help": "A continuation of existing wave climate and sand mining"},{"name":"Long Term and Block Failure", "value":"ltbf", "dependent" : "chz", "help": "Stop sand mining (only applies to southern Monterey Bay)"}], "type": "radio"}
+						{"name":"ii. Cliff Erosion Scenarios", "dependent" : "chz", "group": "main", "values":[{"name":"Long Term","value":"celongterm", "selected": true, "help": "A continuation of existing wave climate and sand mining"},{"name":"Long Term and Block Failure", "value":"ltbf", "dependent" : "chz", "help": "Stop sand mining (only applies to southern Monterey Bay)"}], "type": "radio"}
 					
 					], 
 					"combos": {
@@ -432,15 +432,48 @@
 						"tide_area|2100|s3": [{"type":"dynamic","show":[12]}],
 						
 						
-						"tide_area_aggr|2010|s1": [{"type":"dynamic","show":[0]}],
-						"tide_area_aggr|2030|s1": [{"type":"dynamic","show":[1]}],
-						"tide_area_aggr|2060|s1": [{"type":"dynamic","show":[2]}],						
-						"tide_area_aggr|2010|s2": [{"type":"dynamic","show":[0]}],
-						"tide_area_aggr|2030|s2": [{"type":"dynamic","show":[1]}],
-						"tide_area_aggr|2060|s2": [{"type":"dynamic","show":[2]}],	
-						"tide_area_aggr|2010|s3": [{"type":"dynamic","show":[0]}],
-						"tide_area_aggr|2030|s3": [{"type":"dynamic","show":[1]}],
-						"tide_area_aggr|2060|s3": [{"type":"dynamic","show":[2]}],							
+						"tide_area_aggr|2030|s1": [{"type":"dynamic","show":[0]}],
+						"tide_area_aggr|2060|s1": [{"type":"dynamic","show":[1]}],						
+						"tide_area_aggr|2100|s1": [{"type":"dynamic","show":[2]}],
+						"tide_area_aggr|2030|s2": [{"type":"dynamic","show":[0]}],
+						"tide_area_aggr|2060|s2": [{"type":"dynamic","show":[1]}],						
+						"tide_area_aggr|2100|s2": [{"type":"dynamic","show":[2]}],
+						"tide_area_aggr|2030|s3": [{"type":"dynamic","show":[0]}],
+						"tide_area_aggr|2060|s3": [{"type":"dynamic","show":[1]}],						
+						"tide_area_aggr|2100|s3": [{"type":"dynamic","show":[2]}],
+						
+						
+						"chz_aggr|2030|s1": [{"type":"dynamic","show":[13]}],
+						"chz_aggr|2060|s1": [{"type":"dynamic","show":[14]}],						
+						"chz_aggr|2100|s1": [{"type":"dynamic","show":[15]}],
+						"chz_aggr|2030|s2": [{"type":"dynamic","show":[13]}],
+						"chz_aggr|2060|s2": [{"type":"dynamic","show":[14]}],						
+						"chz_aggr|2100|s2": [{"type":"dynamic","show":[15]}],
+						"chz_aggr|2030|s3": [{"type":"dynamic","show":[13]}],
+						"chz_aggr|2060|s3": [{"type":"dynamic","show":[14]}],						
+						"chz_aggr|2100|s3": [{"type":"dynamic","show":[15]}],
+						
+						"chz|CT|celongterm": [{"type":"dynamic","show":[16]}],
+						"chz|2030|s1|celongterm": [{"type":"dynamic","show":[17]}],
+						"chz|2060|s1|celongterm": [{"type":"dynamic","show":[18]}],
+						"chz|2100|s1|celongterm": [{"type":"dynamic","show":[19]}],
+						"chz|2030|s2|celongterm": [{"type":"dynamic","show":[20]}],
+						"chz|2060|s2|celongterm": [{"type":"dynamic","show":[21]}],
+						"chz|2100|s2|celongterm": [{"type":"dynamic","show":[22]}],
+						"chz|2030|s3|celongterm": [{"type":"dynamic","show":[23]}],
+						"chz|2060|s3|celongterm": [{"type":"dynamic","show":[24]}],
+						"chz|2100|s3|celongterm": [{"type":"dynamic","show":[25]}],						
+
+						"chz|CT|ltbf": [{"type":"dynamic","show":[26]}],
+						"chz|2030|s1|ltbf": [{"type":"dynamic","show":[27]}],
+						"chz|2060|s1|ltbf": [{"type":"dynamic","show":[28]}],
+						"chz|2100|s1|ltbf": [{"type":"dynamic","show":[29]}],
+						"chz|2030|s2|ltbf": [{"type":"dynamic","show":[30]}],
+						"chz|2060|s2|ltbf": [{"type":"dynamic","show":[31]}],
+						"chz|2100|s2|ltbf": [{"type":"dynamic","show":[32]}],
+						"chz|2030|s3|ltbf": [{"type":"dynamic","show":[33]}],
+						"chz|2060|s3|ltbf": [{"type":"dynamic","show":[34]}],
+						"chz|2100|s3|ltbf": [{"type":"dynamic","show":[35]}],	
 						
 						"dhz_aggr|2010": [{"type":"dynamic","show":[59]}],
 						"dhz_aggr|2030|s1": [{"type":"dynamic","show":[56]}],
