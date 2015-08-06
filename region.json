@@ -79,7 +79,7 @@
                 "id": "Santa Barbara",
                 "display": "Santa Barbara",
                 "details": "Santa Barbara, CA",
-                "shape": [[-119.581547, 34.371103], [-119.466534, 34.371103], [-119.466534, 34.425353], [-119.581547, 34.425353], [-119.581547, 34.371103]],
+                "shape": [[-120.446205, 34.346271], [-119.481468, 34.346271], [-119.481468, 34.524096], [-120.446205, 34.524096],[-120.446205, 34.346271]],
                 "availablePlugins": ["layer_selector", "community_planning","floodSLR", "economic", "future_habitat"],
                 "outlineColor": "#000",
                 "noFill": true
