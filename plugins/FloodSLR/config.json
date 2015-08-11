@@ -273,7 +273,7 @@
                     "latestWkid": 3857
                 }
             },
-			"buttons": [{"title": "Download Data", "url": "methods/Download_M.zip"},{"title": "View Technical Report", "url": "methods/Monterey Technical Methods Report v2_FINAL.pdf"},{"title": "View Overview", "url": "methods/Monterey Technical Methods Report v2_FINAL.pdf"}],
+			"buttons": [{"title": "Download Data", "url": "https://tnc.box.com/s/wbxwy1wotnax4pqe4vsu6jx8e4giz66j"},{"title": "View Technical Report", "url": "https://tnc.box.com/s/9kbyloc9g5wl2fjpqptqq992cjsym34t"},{"title": "View Overview", "url": "methods/Monterey Technical Methods Report v2_FINAL.pdf"}],
 			"tabs" : [
 				{
 					"name": "Management Actions",
