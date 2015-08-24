@@ -17,7 +17,7 @@
                     "latestWkid": 3857
                 }
             },
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/ventura_SLAMM/ImageServer",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/ventura_SLAMM/ImageServer",
             "cellsize": 1,
             "root": "ventura_",
             "field": "name",

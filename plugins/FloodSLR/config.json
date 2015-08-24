@@ -256,7 +256,7 @@
 
 						
 					},
-					"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/California/Monterey_SLR/MapServer"
+					"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/California/Monterey_SLR/MapServer"
 				
 				}			
 			]
@@ -434,7 +434,7 @@
 						"fluvial_floodhz_aggr|2100|s3": [{"type":"dynamic","show":[74]}]					
 	
 					},
-					"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/California/SantaBarbara_SLR/MapServer"
+					"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/California/SantaBarbara_SLR/MapServer"
 				
 				}			
 			]
@@ -555,7 +555,7 @@
 						"RFI|2100|High": [{"type":"dynamic","show":[69]}]
 						
 					},
-					"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/California/Ventura_SLR/MapServer"
+					"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/California/Ventura_SLR/MapServer"
 				
 				}			
 			]

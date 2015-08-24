@@ -26,7 +26,7 @@
 						"Concrete": [{"type":"dynamic","show":[2,4]}],
 						"marshmallows":  [{"type":"dynamic","show":[1,3,5]}]
 					},
-					"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/California/Ventura_Economics/MapServer"
+					"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/California/Ventura_Economics/MapServer"
 				},
 				{
 					"name": "Hazard Zones",
@@ -72,7 +72,7 @@
 						"NBA|CSWI|2060": [{"type":"dynamic","show":[30]}],
 						"NBA|CSWI|2100": [{"type":"dynamic","show":[31]}]
 					},
-					"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/California/Ventura_Economics/MapServer"
+					"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/California/Ventura_Economics/MapServer"
 				},
 				{
 					"name": "EBA NBA Damage Estimates",
@@ -83,7 +83,7 @@
 						{"name":"Year / Sea Level Rise", "group": "main", "help": "More Help", "values":[{"name":"Current / Existing Conditions","value":"ex", "help": "More Help"},{"name":"2030 / High", "value":"2030", "help": "More Help"},{"name":"2060 / High", "value":"2060", "help": "More Help"},{"name":"2100 / High", "value":"2100", "help": "More Help"}], "type": "radio"}	
 					
 					], 
-					"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/California/Ventura_Damage_Estimates/MapServer",
+					"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/California/Ventura_Damage_Estimates/MapServer",
 					"combos": {
 							"Cur|Ag|DD|2030": [
 								{
