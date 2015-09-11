@@ -18,7 +18,7 @@
                     "latestWkid": 3857
                 }
             },
-			"buttons": [{"title": "Download Data", "url": "http://data.coastalresilience.org/California/CA_Monteray_CoastalHazards_Mar2014.zip"},{"title": "View Technical Report", "url": "methods/Monterey Technical Methods Report v2_FINAL.pdf"},{"title": "View Overview", "url": "methods/Monterey Technical Methods Report v2_FINAL.pdf"}],
+			"buttons": [{"title": "Download Data", "url": "http://data.coastalresilience.org/California/CA_Monterey_CoastalHazards_Mar2014.zip"},{"title": "View Technical Report", "url": "methods/Monterey Technical Methods Report v2_FINAL.pdf"},{"title": "View Overview", "url": "methods/Monterey Technical Methods Report v2_FINAL.pdf"}],
 			"tabs" : [
 				{
 					"name": "Management Actions",
