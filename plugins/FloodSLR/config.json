@@ -113,12 +113,12 @@
 						"coastal_floodhz_aggr|2100|s3": [{"type":"dynamic","show":[45]}],
 						
 						
-						"dhz|2010|longterm|nochange": [{"type":"dynamic","show":[59]}], 
-						"dhz|2010|longterm|stopmining": [{"type":"dynamic","show":[69]}],
-						"dhz|2010|longterm|stormier": [{"type":"dynamic","show":[79]}],
-						"dhz|2010|wstorm|nochange": [{"type":"dynamic","show":[89]}], 
-						"dhz|2010|wstorm|stopmining": [{"type":"dynamic","show":[99]}],
-						"dhz|2010|wstorm|stormier": [{"type":"dynamic","show":[109]}],
+						"dhz|CT|longterm|nochange": [{"type":"dynamic","show":[59]}], 
+						"dhz|CT|longterm|stopmining": [{"type":"dynamic","show":[69]}],
+						"dhz|CT|longterm|stormier": [{"type":"dynamic","show":[79]}],
+						"dhz|CT|wstorm|nochange": [{"type":"dynamic","show":[89]}], 
+						"dhz|CT|wstorm|stopmining": [{"type":"dynamic","show":[99]}],
+						"dhz|CT|wstorm|stormier": [{"type":"dynamic","show":[109]}],
 						
 						"dhz|2030|s1|longterm|nochange": [{"type":"dynamic","show":[60]}],
 						"dhz|2030|s1|longterm|stopmining": [{"type":"dynamic","show":[70]}],
@@ -184,12 +184,12 @@
 						"dhz|2100|s3|wstorm|stormier": [{"type":"dynamic","show":[118]}],	
 
 
-						"chz|2010|longterm|nochange": [{"type":"dynamic","show":[3]}], 
-						"chz|2010|longterm|stopmining": [{"type":"dynamic","show":[-1]}],
-						"chz|2010|longterm|stormier": [{"type":"dynamic","show":[13]}],
-						"chz|2010|wstorm|nochange": [{"type":"dynamic","show":[23]}], 
-						"chz|2010|wstorm|stopmining": [{"type":"dynamic","show":[-1]}],
-						"chz|2010|wstorm|stormier": [{"type":"dynamic","show":[33]}],
+						"chz|CT|longterm|nochange": [{"type":"dynamic","show":[3]}], 
+						"chz|CT|longterm|stopmining": [{"type":"dynamic","show":[-1]}],
+						"chz|CT|longterm|stormier": [{"type":"dynamic","show":[13]}],
+						"chz|CT|wstorm|nochange": [{"type":"dynamic","show":[23]}], 
+						"chz|CT|wstorm|stopmining": [{"type":"dynamic","show":[-1]}],
+						"chz|CT|wstorm|stormier": [{"type":"dynamic","show":[33]}],
 						
 						"chz|2030|s1|longterm|nochange": [{"type":"dynamic","show":[4]}],
 						"chz|2030|s1|longterm|stopmining": [{"type":"dynamic","show":[-1]}],
