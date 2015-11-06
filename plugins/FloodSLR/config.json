@@ -41,7 +41,7 @@
 					], 
 					"combos": {
 					
-						"tide_area|2010": [{"type":"dynamic","show":[122]}],
+						"tide_area|CT": [{"type":"dynamic","show":[122]}],
 						"tide_area|2030|s1": [{"type":"dynamic","show":[123]}],
 						"tide_area|2030|s2": [{"type":"dynamic","show":[126]}],
 						"tide_area|2030|s3": [{"type":"dynamic","show":[129]}],
@@ -53,7 +53,7 @@
 						"tide_area|2100|s3": [{"type":"dynamic","show":[131]}],
 						
 						
-						"tide_area_aggr|2010": [{"type":"dynamic","show":[122]}],
+						"tide_area_aggr|CT": [{"type":"dynamic","show":[122]}],
 						"tide_area_aggr|2030|s1": [{"type":"dynamic","show":[119]}],
 						"tide_area_aggr|2030|s2": [{"type":"dynamic","show":[119]}],
 						"tide_area_aggr|2030|s3": [{"type":"dynamic","show":[119]}],
@@ -65,7 +65,7 @@
 						"tide_area_aggr|2100|s3": [{"type":"dynamic","show":[121]}],
 						
 						
-						"dhz_aggr|2010": [{"type":"dynamic","show":[59]}],
+						"dhz_aggr|CT": [{"type":"dynamic","show":[59]}],
 						"dhz_aggr|2030|s1": [{"type":"dynamic","show":[56]}],
 						"dhz_aggr|2030|s2": [{"type":"dynamic","show":[56]}],
 						"dhz_aggr|2030|s3": [{"type":"dynamic","show":[56]}],
@@ -77,7 +77,7 @@
 						"dhz_aggr|2100|s3": [{"type":"dynamic","show":[58]}],
 						
 						
-						"chz_aggr|2010": [{"type":"dynamic","show":[3]}],
+						"chz_aggr|CT": [{"type":"dynamic","show":[3]}],
 						"chz_aggr|2030|s1": [{"type":"dynamic","show":[0]}],
 						"chz_aggr|2030|s2": [{"type":"dynamic","show":[0]}],
 						"chz_aggr|2030|s3": [{"type":"dynamic","show":[0]}],
@@ -89,7 +89,7 @@
 						"chz_aggr|2100|s3": [{"type":"dynamic","show":[2]}],
 						
 						
-						"coastal_floodhz|2010": [{"type":"dynamic","show":[46]}],
+						"coastal_floodhz|CT": [{"type":"dynamic","show":[46]}],
 						"coastal_floodhz|2030|s1": [{"type":"dynamic","show":[47]}],
 						"coastal_floodhz|2030|s2": [{"type":"dynamic","show":[50]}],
 						"coastal_floodhz|2030|s3": [{"type":"dynamic","show":[53]}],
@@ -101,7 +101,7 @@
 						"coastal_floodhz|2100|s3": [{"type":"dynamic","show":[55]}],
 
 
-						"coastal_floodhz_aggr|2010": [{"type":"dynamic","show":[46]}],
+						"coastal_floodhz_aggr|CT": [{"type":"dynamic","show":[46]}],
 						"coastal_floodhz_aggr|2030|s1": [{"type":"dynamic","show":[43]}],
 						"coastal_floodhz_aggr|2030|s2": [{"type":"dynamic","show":[43]}],
 						"coastal_floodhz_aggr|2030|s3": [{"type":"dynamic","show":[43]}],
