@@ -19,7 +19,7 @@
             },
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/ventura_SLAMM/ImageServer",
             "cellsize": 1,
-            "root": "ventura_",
+            "root": "ventura",
             "field": "name",
             "methods": "hi",
             "initialCondition": "ec2010",
