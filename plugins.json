@@ -1,14 +1,14 @@
 {
-    "plugins": [
+  "plugins": [
 	{
       "repo": "multiSelect",
       "name": "floodSLR"
     },	
-	{
+	  {
       "repo": "multiSelect",
       "name": "economic"
     },
-	{
+	  {
       "repo": "future_habitat",
       "name": "future_habitat"
     },
