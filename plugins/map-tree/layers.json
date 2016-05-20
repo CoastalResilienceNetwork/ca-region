@@ -59,11 +59,11 @@
     },
     {
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
             "folderTitle": "Coastal Resilience (National)",
             "folders": [
                 {
-                    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/US",
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/US",
                     "name": "",
                     "groupFolder": "Coastal Resilience (National)/Social_and_Economic",
                     "groupAsService": true,
@@ -233,6 +233,21 @@
                             "type": "dynamic",
                             "opacity": 1
                         }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+	"agsSource": {
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/California",
+            "folderTitle": "CalEnviroScreen 2.0 Results",
+            "folders": [
+                {
+                    "name": "",
+                    "services": [   
+                        { "name": "CalEnviroScreen2_0Results", "type":"dynamic", "displayName":"CalEnviroScreen Score","description": "This map shows the CalEnviroScreen 2.0 score for each census tract in California. The scores are calculated by combining the scores for 19 individual indicators that make up CalEnviroScreen. These indicators relate to pollution exposures, environmental conditions, and population characteristics. To explore the map, zoom to or type a location into the search bar. Clicking on a census tract shows a popup window with the individual results for each of the 19 indicators that make up its CalEnviroScreen score. From http://oehha.ca.gov/ej/ces2.html. Full report available at http://www.oehha.ca.gov/ej/pdf/CES20FinalReportUpdateOct2014.pdf" 
+						}
                     ]
                 }
             ]
