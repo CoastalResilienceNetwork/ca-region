@@ -42,7 +42,6 @@
     "pluginOrder": [
 		"map-tree",
         "flood_slr",
-		"community_planning",
 		"future_habitat",
         "zoom_to",
         "measure",
