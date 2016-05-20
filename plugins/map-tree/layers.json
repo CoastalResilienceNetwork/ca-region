@@ -1,7 +1,7 @@
 [
     {
             "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/California",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/California",
             "folderTitle": "California",
             "folders": [
                 {
@@ -59,7 +59,7 @@
     },
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services",
             "folderTitle": "Coastal Resilience (National)",
             "folders": [
                 {
