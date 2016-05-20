@@ -273,7 +273,7 @@
                     "latestWkid": 3857
                 }
             },
-			"buttons": [{"title": "Download Data", "url": "http://data.coastalresilience.org/California/CA_SantaBarbara_Flood_Final_HZ_wMetadata.zip"},{"title": "View Technical Report", "url": "https://tnc.box.com/s/9kbyloc9g5wl2fjpqptqq992cjsym34t"},{"title": "View Overview", "url": "methods/Monterey Technical Methods Report v2_FINAL.pdf"}],
+			"buttons": [{"title": "Download Data", "url": "http://data.coastalresilience.org/California/CA_SantaBarbara_Flood_Final_HZ_wMetadata.zip"},{"title": "View Technical Report", "url": "https://tnc.box.com/s/9kbyloc9g5wl2fjpqptqq992cjsym34t"},{"title": "View Overview", "url": "methods/SBLCP Technical Methods Report with Figures.pdf"}],
 			"tabs" : [
 				{
 					"name": "Management Actions",
