@@ -41,6 +41,7 @@
     ],
     "pluginOrder": [
 		"map-tree",
+        "community_planning",
         "regional-planning",
         "community-planning",
         "flood_slr",
