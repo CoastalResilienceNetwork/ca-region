@@ -17,6 +17,10 @@
       "name": "regional-planning"
     },
     {
+      "repo": "regional-planning",
+      "name": "community-planning"
+    },
+    {
       "repo": "map-tree",
       "name": "map-tree"
     }    
