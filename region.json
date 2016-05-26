@@ -42,7 +42,6 @@
     "pluginOrder": [
 		"map-tree",
         "regional-planning",
-        "community_planning",
         "community-planning",
         "flood_slr",
 		"future_habitat",
