@@ -8,6 +8,10 @@
       "repo": "multiSelect",
       "name": "economic"
     },
+    {
+      "repo": "enba",
+      "name": "enba"
+    },
 	  {
       "repo": "future_habitat",
       "name": "future_habitat"
