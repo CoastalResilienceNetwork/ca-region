@@ -1,12 +1,12 @@
 {
   "plugins": [
 	{
-      "repo": "multiSelect",
-      "name": "floodSLR"
+      "repo": "flood-slr-ca",
+      "name": "flood-slr"
     },	
 	  {
-      "repo": "multiSelect",
-      "name": "economic"
+      "repo": "enba",
+      "name": "enba"
     },
 	  {
       "repo": "future_habitat",
