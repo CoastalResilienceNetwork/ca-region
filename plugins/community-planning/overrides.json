@@ -4,6 +4,5 @@
     "resizable": false,
     "hasCustomPrint": true,
     "name": "Community Planning",
-    "description": "Local data using the regional planning web app",
-    "infoGraphic": "<div style='padding:5px;width:600px;text-align: justify'> <div style='font-size: 120%;'>Global Water Blueprint can include links like<a target='_blank' href='https://www.fema.gov/national-flood-insurance-program-community-rating-system'>FEMA’s Community Rating System</a>and images like</div><div><img src='plugins/regional-planning/FloodplainExplorer.jpg'/></div><div> Find your CRS representative<a target='_blank' href='http://crsresources.org/100-2/'>here.</a></div></div>"
+    "description": "Local data using the regional planning web app"
 }
