@@ -42,7 +42,6 @@
     ],
     "pluginOrder": [
         "regional-planning",
-        "community-planning",
         "enba",
         "flood-slr",
 		"future_habitat",
@@ -104,19 +103,32 @@
             "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map.",
             "showByDefault": true,
             "categories": [
-              {
+                {
                 "name": "Geographies",
                 "description": "Choose a specific region and it will take you there, or you can freely explore the map.",
                 "issues": [
-                    {
-                      "name": "Explore the map",
-                      "description": "",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xNDkxNzTFiS45OTA0M8WPODXEmnnFgcSTMzY2MTY4OC4yODPFjTc4NjLEv8SpeMSIxYTFiDEzMjM0Ljc2xYrFnMWJOMWVxarEiDXFsDAwxZouxY85NjcyNjA1xZTEgXBhdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxMDLGoTDEmmzGj2VzdFfGncafOjPFkzd9xKfEgWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGtMaObmXEq8aax4hlTnVtYsaWx4XEmsaqxqhPZlBsdWfFgsSixprEmMa3xrllZMeax5zFgsSIbnVsbMSaxIzHp27Hn3vGs8az",
-                      "faIcon": "fa fa-globe",
-                      "faSize": 32
-                    }
-                ]
-              }
+                        {
+                          "name": "Explore the map",
+                          "description": "",
+                          "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xNDkxNzTFiS45OTA0M8WPODXEmnnFgcSTMzY2MTY4OC4yODPFjTc4NjLEv8SpeMSIxYTFiDEzMjM0Ljc2xYrFnMWJOMWVxarEiDXFsDAwxZouxY85NjcyNjA1xZTEgXBhdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxMDLGoTDEmmzGj2VzdFfGncafOjPFkzd9xKfEgWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGtMaObmXEq8aax4hlTnVtYsaWx4XEmsaqxqhPZlBsdWfFgsSixprEmMa3xrllZMeax5zFgsSIbnVsbMSaxIzHp27Hn3vGs8az",
+                          "faIcon": "fa fa-globe",
+                          "faSize": 32
+                        }
+                    ]
+                },
+                {
+                    "name": "One-click Interactive Map",
+                    "description": "Customized maps scenarios for exploring different California Coastal Resilience projects.",
+                    "issues": [
+                        {
+                          "name": "Santa Barbara Storm Flooding",
+                          "description": "Example one-click map",
+                          "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMzQyNjA3My7FijMwMTcwMDXEmnnFgcSTNMWUMTk5Mi45NcWHxZQzMjLFlSLFgGF4xIjFhMWlODU4MTEuMcWIxbMzOMWhxZbEqcWsOjTFtsWHxafFoDQ1OcWGN8WRxJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDEwMsafMMSnImNhY2jGl8SAX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a2xL/FmMWtxYXFh8WJxYvFjcWLxZDFksWUxbzFgsSIxZo1xZzFnsWgxaIyxaTFpsWoxarFvsWuMsWwxbLFtMW2NsW4xbrFqMWXxavHi8aBx5TGhMaGxojGisSBxq3GjsaQxpLGlMSGY8aqxpnGm8adOsafxqHFk33GpGZyYW1lSWTGsVswXX3Ih8akxJhsZWPEsGRCYcSYxKlwSW5kxK7EiMajxJrGrW5lxKvGmMidZU51bWLGlMiaxot0xo1lT2ZQbHVnxYLGscSKZciMyI5lZMiwyLLHijoixIzIvW5zL2Zsb29kLXNsciLInMixyLPJg8SzyYHJksmEyYbJiMmKyYzJjsaYY2/EvXJvxJfEs8iLyI3GsMSzxITIs8mfU8i3yabEs3bElnXGlyJTYcS9YSDIkXJixq5hIsakaGF6xq5kyazIuMSyxpjJsMixybNzdG9ybV/JmMmJyb/IisSNyJhyyLXGpcSNxKnEsFllxq5TypfIqMqJybHGlzPEmmRpc2FiyIzHtsSkxJjIiseybsauaW/KosacyqTEgMqKybLIqSLKqsqsyq7IusSIdHLJssakb8atY8SOecq5ypjJr8qmyr/Lgcqtyq/Eo8SWyrLGpMe+yqpvxqjIjWvEs8qByoNyZExhecaUQ8apY2tCb8W+xIDLnsusy4Q6y4bJssqpyqvLlcu0yrHEpse7y77Huw==",
+                          "faIcon": "fa fa-anchor",
+                          "faSize": 32
+                        }
+                    ]
+                }
             ]
         }
     ]
