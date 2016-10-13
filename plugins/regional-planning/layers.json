@@ -232,7 +232,17 @@
 							"url": "https://services.gis.ca.gov/arcgis/rest/services/Government",
 							"name": "State_Property_Inventory"
 						},
-						"includeAllLayers" : true
+						"includeLayers" : [
+							{
+								"name" : "Leased"
+							},
+							{
+								"name" : "Owned"
+							},
+							{
+								"name" : "Structures"
+							}
+						]
 					},
 					{
 						"displayName": "CA Government Offices",
