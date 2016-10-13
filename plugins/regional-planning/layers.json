@@ -230,13 +230,9 @@
 							"type": "ags",
 							"layerType": "dynamic",
 							"url": "https://services.gis.ca.gov/arcgis/rest/services/Government",
-							"name": "CACounties10"
+							"name": "State_Property_Inventory"
 						},
-						"includeLayers" : [
-							{
-								"name": "District Boundaries"
-							}							
-						]
+						"includeAllLayers" : true
 					},
 					{
 						"displayName": "CA Government Offices",
