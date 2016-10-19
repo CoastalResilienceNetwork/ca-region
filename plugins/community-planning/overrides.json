@@ -4,5 +4,6 @@
     "resizable": false,
     "hasCustomPrint": true,
     "name": "Community Planning",
+	"infoGraphic" : "plugins/community_planning/IntegratedCommunityPlanning.jpg",
     "description": "Local data using the regional planning web app"
 }
