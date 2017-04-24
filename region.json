@@ -63,12 +63,12 @@
                 {
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Intro text",
-                    "pluginName": "flood_slr"
+                    "pluginName": "flood-slr"
                 },
                 {
                     "title": "<img src='img/ebna.png' hspace=10>Economics of Nature-Based Adaptation",
                     "description": "Intro texxt",
-                    "pluginName": "ebna"
+                    "pluginName": "enba"
                 },
                 {
                     "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
