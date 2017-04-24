@@ -4,7 +4,6 @@
     "titleMain": { "text": "Coastal Resilience", "url": "" },
     "titleDetail": { "text": "California", "url": "" },
 	"headerLinks": [
-		{ "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" },
         { "text": "GO TO", "url": "#", "items": [
