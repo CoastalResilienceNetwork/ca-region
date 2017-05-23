@@ -17,9 +17,9 @@
 	},
 	"region": {
 		"California (statewide)": {
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/California/MapServer",
+			"url": "http://services.coastalresilience.org/arcgis/rest/services/California/California/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/California/MapServer",
+				"main": "http://services.coastalresilience.org/arcgis/rest/services/California/California/MapServer",
 				"slr_0ft": { "type": "tiled", "url": "http://maps1.coast.noaa.gov/arcgis/rest/services/dc_slr/slr_0ft/MapServer" },
 				"slr_1ft": { "type": "tiled", "url": "http://maps1.coast.noaa.gov/arcgis/rest/services/dc_slr/slr_1ft/MapServer" },
 				"slr_2ft": { "type": "tiled", "url": "http://maps1.coast.noaa.gov/arcgis/rest/services/dc_slr/slr_2ft/MapServer" },
@@ -74,10 +74,10 @@
 		
 		},
 		"Los Angeles": {
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer",
+			"url": "http://services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer",
-				"risk": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer"
+				"main": "http://services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer",
+				"risk": "http://services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -152,9 +152,9 @@
 			}
 		},
 		"Monterey": {
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer",
+			"url": "http://services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer"
+				"main": "http://services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -246,9 +246,9 @@
 			}
 		},
 		"Santa Barbara": {
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer",
+			"url": "http://services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer"
+				"main": "http://services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -341,9 +341,9 @@
 			}
 		},
 		"Ventura": {
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer",
+			"url": "http://services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer"
+				"main": "http://services.coastalresilience.org/arcgis/rest/services/California/Flood_Slr/MapServer"
 			},
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
