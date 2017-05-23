@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/California/",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/California/",
             "name": "California"
 		},
         "includeLayers": [
@@ -31,7 +31,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/US/",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/US/",
             "name": "United_States"
 		},
         "includeLayers": [
@@ -309,7 +309,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/California",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/California",
             "name": "CalEnviroScreen2_0Results"
 		},
 		"includeLayers": [

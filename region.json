@@ -1,11 +1,11 @@
 {
     "googleAnalyticsPropertyId": "7401895-17",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
-    "titleDetail": { "text": "California", "url": "http://coastalresilience.org/project-areas/california-introduction/" },
+    "titleMain": { "text": "Coastal Resilience", "url": "" },
+    "titleDetail": { "text": "California", "url": "" },
 	"headerLinks": [
-		{ "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
-		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
+        { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
+        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" },
         { "text": "GO TO", "url": "#", "items": [
                 { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
                 { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
@@ -19,10 +19,7 @@
                 { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
                 { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
             ]
-        },
-        { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
+        }
     ],
     "initialExtent": [
         -125.539454,
@@ -41,95 +38,44 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "regional-planning",
-        "enba",
         "flood-slr",
+        "enba",
 		"future_habitat",
+        "community-planning",
+        "regional-planning",
         "zoom_to",
         "measure",
         "legend_display",
-        "full_extent",
-        "subregion_toggle"
+        "full_extent"
     ],
     "print": {
-        "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
+        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
     },
     "colors": {
        "primary": "#26648E",
        "secondary": "#26648E"
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
-    "subregions": {
-        "hideAtZoomLevel": 8,
-        "color": "#00C5CD",
-        "outlineColor": "#008000",
-        "opacity": 0.2,
-        "clickToFocus": true,
-        "hideByDefault": true,
-        "areas": [
-            {
-                "id": "Monterey",
-                "display": "Monterey",
-                "details": "Monterey, CA",
-                "shape": [[-122.316832426822, 37.12771684650833], [-122.08521258993395, 37.0049464111225], [-121.6916149603745, 36.98444447851047], [-121.63599790395533, 36.592714047270626], [-121.90695279411031, 36.588133956161634], [-122.35901963560761, 37.11305945551137], [-122.316832426822, 37.12771684650833]],
-                "availablePlugins": ["layer_selector", "community_planning", "floodSLR"],
-                "outlineColor": "#000",
-                "noFill": true
-            },{
-                "id": "Santa Barbara",
-                "display": "Santa Barbara",
-                "details": "Santa Barbara, CA",
-                "shape": [[-120.505199427, 34.3673309009], [-120.505199427, 34.5136724883], [-119.451739011, 34.5136724883], [-120.5051994271, 34.3673309009],[-120.505199427, 34.3673309009]],
-                "availablePlugins": ["layer_selector","floodSLR"],
-                "outlineColor": "#000",
-                "noFill": true
-            },{
-                "id": "Ventura",
-                "display": "Ventura",
-                "details": "Ventura, CA",
-                "shape": [[-119.52276396600227, 34.387321441606375], [-119.4867901956278, 34.39238979023838], [-119.26656052672348, 34.26921460290802], [-118.90506800359715, 34.071031797619405], [-118.89980354904543, 33.994683833542574], [-118.92875804728317, 33.98740901687506], [-119.32797915926733, 34.08411311971952], [-119.52276396600227, 34.387321441606375]],
-                "availablePlugins": ["layer_selector", "community_planning","floodSLR", "economic", "future_habitat"],
-                "outlineColor": "#000",
-                "noFill": true
-            }
-        ]
-    },
-     "launchpads": [
-        {
-            "id": "get-started",
-            "title": "Getting Started",
-            "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards",
-            "showSubRegions": false,
-            "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map.",
-            "showByDefault": true,
-            "categories": [
+    "identifyEnabled": true,
+    "launchpad": {
+            "title": "Coastal Resilience California",
+            "description": "<p>Helping California’s coastal communities plan for resilience in the face of sea level rise</p>",
+            "plugins": [
                 {
-                "name": "Geographies",
-                "description": "Choose a specific region and it will take you there, or you can freely explore the map.",
-                "issues": [
-                        {
-                          "name": "Explore the map",
-                          "description": "",
-                          "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xNDkxNzTFiS45OTA0M8WPODXEmnnFgcSTMzY2MTY4OC4yODPFjTc4NjLEv8SpeMSIxYTFiDEzMjM0Ljc2xYrFnMWJOMWVxarEiDXFsDAwxZouxY85NjcyNjA1xZTEgXBhdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxMDLGoTDEmmzGj2VzdFfGncafOjPFkzd9xKfEgWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGtMaObmXEq8aax4hlTnVtYsaWx4XEmsaqxqhPZlBsdWfFgsSixprEmMa3xrllZMeax5zFgsSIbnVsbMSaxIzHp27Hn3vGs8az",
-                          "faIcon": "fa fa-globe",
-                          "faSize": 32
-                        }
-                    ]
+                    "title": "<img src='img/flood_slr.png' hspace=10>Flood & Sea Level Rise",
+                    "description": "Visualize sea level rise & coastal hazard projections to identify vulnerabilities along the CA coast",
+                    "pluginName": "flood-slr"
                 },
                 {
-                    "name": "One-click Interactive Map",
-                    "description": "Customized maps scenarios for exploring different California Coastal Resilience projects.",
-                    "issues": [
-                        {
-                          "name": "Santa Barbara Storm Flooding",
-                          "description": "Example one-click map",
-                          "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMzQyNjA3My7FijMwMTcwMDXEmnnFgcSTNMWUMTk5Mi45NcWHxZQzMjLFlSLFgGF4xIjFhMWlODU4MTEuMcWIxbMzOMWhxZbEqcWsOjTFtsWHxafFoDQ1OcWGN8WRxJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDEwMsafMMSnImNhY2jGl8SAX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a2xL/FmMWtxYXFh8WJxYvFjcWLxZDFksWUxbzFgsSIxZo1xZzFnsWgxaIyxaTFpsWoxarFvsWuMsWwxbLFtMW2NsW4xbrFqMWXxavHi8aBx5TGhMaGxojGisSBxq3GjsaQxpLGlMSGY8aqxpnGm8adOsafxqHFk33GpGZyYW1lSWTGsVswXX3Ih8akxJhsZWPEsGRCYcSYxKlwSW5kxK7EiMajxJrGrW5lxKvGmMidZU51bWLGlMiaxot0xo1lT2ZQbHVnxYLGscSKZciMyI5lZMiwyLLHijoixIzIvW5zL2Zsb29kLXNsciLInMixyLPJg8SzyYHJksmEyYbJiMmKyYzJjsaYY2/EvXJvxJfEs8iLyI3GsMSzxITIs8mfU8i3yabEs3bElnXGlyJTYcS9YSDIkXJixq5hIsakaGF6xq5kyazIuMSyxpjJsMixybNzdG9ybV/JmMmJyb/IisSNyJhyyLXGpcSNxKnEsFllxq5TypfIqMqJybHGlzPEmmRpc2FiyIzHtsSkxJjIiseybsauaW/KosacyqTEgMqKybLIqSLKqsqsyq7IusSIdHLJssakb8atY8SOecq5ypjJr8qmyr/Lgcqtyq/Eo8SWyrLGpMe+yqpvxqjIjWvEs8qByoNyZExhecaUQ8apY2tCb8W+xIDLnsusy4Q6y4bJssqpyqvLlcu0yrHEpse7y77Huw==",
-                          "faIcon": "fa fa-anchor",
-                          "faSize": 32
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+                    "title": "<img src='img/ebna.png' hspace=10>Economics of Nature-Based Adaptation",
+                    "description": "Compare the economic impacts of nature-based adaptation approaches with coastal armoring",
+                    "pluginName": "enba"
+                },
+                {
+                    "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
+                    "description": "Identify potential migration pathways for coastal habitats",
+                    "pluginName": "future_habitat"
+            }
+        ]
+    }
 }

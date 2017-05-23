@@ -5,7 +5,11 @@
       "name": "regional-planning"
     },
     {
-      "repo": "flood-slr",
+      "repo": "regional-planning",
+      "name": "community-planning"
+    },
+    {
+      "repo": "flood-slr-ca",
       "name": "flood-slr"
     },
     {

@@ -1,0 +1,53 @@
+[
+    {
+        "displayName": "Monterey County",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/California",
+            "name": "Monterey_County",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "CR_CA.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Social"
+            },
+            {
+                "name": "Ecological"
+            }
+        ]
+    },
+    {
+        "displayName": "Ventura County",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/California",
+            "name": "Ventura_County",
+            "reportGpUrl": "http://services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "CR_CA.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Images of economic, social, and ecological assets"
+            },
+            {
+                "name": "Infrastructure",
+                "includeAllLayers" : true
+            },
+            {
+                "name": "Planning",
+                "includeAllLayers" : true
+            },
+            {
+                "name": "Natural",
+                "includeAllLayers" : true
+            },
+            {
+                "name": "Socioeconomic",
+                "includeAllLayers" : true
+            }
+        ]
+    }
+]
