@@ -23,7 +23,11 @@
                 "name": "Natural",
 				"displayName": "Natural",
                 "includeAllLayers": true
-            }
+            },
+			{
+				"name": "CalEnviroScreen 2.0 Results",
+				"description": "This map shows the CalEnviroScreen 2.0 score for each census tract in California. The scores are calculated by combining the scores for 19 individual indicators that make up CalEnviroScreen. These indicators relate to pollution exposures, environmental conditions, and population characteristics. To explore the map, zoom to or type a location into the search bar. Clicking on a census tract shows a popup window with the individual results for each of the 19 indicators that make up its CalEnviroScreen score. From http://oehha.ca.gov/ej/ces2.html. Full report available at http://www.oehha.ca.gov/ej/pdf/CES20FinalReportUpdateOct2014.pdf" 
+			}
         ]
     },
 	{
