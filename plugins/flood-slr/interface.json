@@ -1,4 +1,5 @@
 {
+	"includeMinimize": true,
 	"infoGraphic": {
 		"show": false,
 		"popup": true,
@@ -6,7 +7,7 @@
 		"height":400, 
 		"url":"<img style='style='position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);' src='PLUGIN-DIRECTORY/slr_flooding_c.jpg'/>"
 	},
-    "tooltips": {
+	"tooltips": {
 		"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
 		"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
 		"climate": "Future planning horizons representing the impact of climate change.",
@@ -100,8 +101,8 @@
 					"hazard": {
 						"options": [
 							{ "name": " -- ", "value": "" },
-							{ "name": "Storm Flooding", "value": "storm_flood", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["hazard"] } },
-							{ "name": "Coastal Erosion", "value": "coastal_erosion", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["hazard"] } },
+							{ "name": "Storm Flooding", "value": "storm_flood", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["armor"] } },
+							{ "name": "Coastal Erosion", "value": "coastal_erosion", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["armor"] } },
 							{ "name": "Cliff Erosion", "value": "cliff_erosion", "controls": { "slider": ["climate"] } },
 							{ "name": "Rising Tide", "value": "tide", "controls": { "slider": ["climate", "scenario"] } }
 						]
@@ -135,7 +136,7 @@
 					}
 				},
 				"radiocheck": {
-					"hazard": { "disabled": false, "show": true, "value": "armor", "type":"check", "label":"with armoring" },
+					"armor": { "disabled": false, "show": true, "value": "armor", "type":"check", "label":"with armoring" },
 					"other": { "disabled": false, "show": true, "value": "risk", "type": "check", "label": "Relative Risk Zones", "layer": "risk", "overlay": false,
 								"dependency": {
 									"slider": {
@@ -228,7 +229,7 @@
 					"hazard": { "disabled": false, "show": true, 
 						"value":"aggregate",
 						"type":"check",
-						"label":"view aggregate data",
+						"label":"aggregate data",
 						"dependency": { 
 							"slider": {
 								"scenario": {
@@ -271,10 +272,10 @@
 					"hazard": {
 						"options": [
 							{ "name": " -- ", "value": "" },
-							{ "name": "Storm Flooding", "value": "storm_flood", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["hazard"] } },
+							{ "name": "Storm Flooding", "value": "storm_flood", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["armor","hazard"] } },
 							{ "name": "Fluvial Flooding", "value": "fluvial_flood", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["hazard"] } },
-							{ "name": "Dune Erosion", "value": "dune_erosion", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["hazard"] } },
-							{ "name": "Cliff Erosion", "value": "cliff_erosion", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["hazard"] } },
+							{ "name": "Dune Erosion", "value": "dune_erosion", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["armor","hazard"] } },
+							{ "name": "Cliff Erosion", "value": "cliff_erosion", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["armor","hazard"] } },
 							{ "name": "Rising Tide", "value": "tide", "controls": { "slider": ["climate", "scenario"], "radiocheck": ["hazard"] } }
 						]
 					}
@@ -323,7 +324,7 @@
 					"hazard": { "disabled": false, "show": true, 
 						"value":"aggregate",
 						"type":"check",
-						"label":"view aggregate data",
+						"label":"aggregate data",
 						"dependency": { 
 							"slider": {
 								"scenario": {
@@ -332,7 +333,8 @@
 								}
 							}
 						}
-					}
+					},
+					"armor": { "disabled": false, "show": true, "value": "armor", "type":"check", "label":"with armoring" }
 				}
 			},
 			"download": {
