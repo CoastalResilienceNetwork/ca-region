@@ -21,7 +21,7 @@
             "cellsize": 1,
             "root": "ventura_",
             "field": "name",
-            "methods": "hi",
+            "methods": "methods/SLAMM_Ventura.pdf",
             "initialCondition": "ec2010",
             "delimiter": "",
             "variables": [
