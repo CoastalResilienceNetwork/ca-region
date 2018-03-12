@@ -49,7 +49,7 @@
         "full_extent"
     ],
     "print": {
-        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
+        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",  
     	"headerLogoPath":"http://cr-org-maps.coastalresiilence.org/network/img/TNCLogoPrimary_RBG2.jpg"
     },
     "colors": {
