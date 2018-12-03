@@ -16,6 +16,10 @@
       "repo": "enba",
       "name": "enba"
     },
+    {
+      "repo": "disadvantaged-communities",
+      "name": "disadvantaged-communities"
+    },
 	{
       "repo": "future_habitat",
       "name": "future_habitat"
