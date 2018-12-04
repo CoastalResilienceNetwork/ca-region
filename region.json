@@ -40,7 +40,7 @@
     "pluginOrder": [
         "flood-slr",
         "enba",
-        "disadvantaged-communities"
+        "disadvantaged-communities",
 		"future_habitat",
         "community-planning",
         "regional-planning",
