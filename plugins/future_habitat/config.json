@@ -17,7 +17,7 @@
                     "latestWkid": 3857
                 }
             },
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/California/Future_Habitat/ImageServer",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/California/Future_Habitat/ImageServer",
             "cellsize": 1,
             "root": "ventura_",
             "field": "name",
