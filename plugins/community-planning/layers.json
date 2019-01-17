@@ -4,9 +4,9 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/California",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/California",
             "name": "Monterey_County",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "https://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "CR_CA.gdb" 
         },
         "includeLayers": [
@@ -23,9 +23,9 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/California",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/California",
             "name": "Ventura_County",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "https://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "CR_CA.gdb" 
         },
         "includeLayers": [
