@@ -23,10 +23,6 @@
     {
       "repo": "natural-infrastructure-blueprint",
       "name": "natural-infrastructure-blueprint"
-    },
-	{
-      "repo": "future_habitat",
-      "name": "future_habitat"
     }
   ]
 }
