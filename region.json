@@ -71,12 +71,7 @@
                     "title": "<img src='img/ebna.png' hspace=10>Economics of Nature-Based Adaptation",
                     "description": "Compare the economic impacts of nature-based adaptation approaches with coastal armoring",
                     "pluginName": "enba"
-                },
-                {
-                    "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
-                    "description": "Identify potential migration pathways for coastal habitats",
-                    "pluginName": "future_habitat"
-            }
+                }
         ]
     }
 }
